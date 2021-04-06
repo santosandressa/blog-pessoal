@@ -30,7 +30,7 @@ public class Usuario {
 	
 	@NotNull
 	@NotEmpty
-	@Size(min= 5, max= 100)
+	@Size(min= 5)
 	private String senha;
 
 	public Long getId() {
