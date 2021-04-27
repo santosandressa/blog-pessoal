@@ -1,7 +1,7 @@
 footer {
     display: flex;
     flex-direction: column;
-    border-top: 1px solid #f66a7d;
+    border-top: 1px solid #e65b5e;
     padding: 40px;
 }
 
@@ -13,8 +13,8 @@ footer {
 }
 
 .fa {
-    color: #413034;
-    padding-right: 20px;
+    color: #1a6899;
+    padding-right: 30px;
 }
 
 .copyright-footer {
