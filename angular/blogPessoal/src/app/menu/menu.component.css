@@ -1,5 +1,5 @@
 .menu-container {
-    margin: 20px 80px;
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
 }
@@ -19,7 +19,7 @@
     font-weight: bold;
     font-size: 18px;
     letter-spacing: 1px;
-    color: #413034;
+    color: #1a6899;
     text-align: center;
 }
 
@@ -40,7 +40,7 @@
     left: 53%;
     right: 53%;
     bottom: 0;
-    background: #f66a7d;
+    background: #e65b5e;
     height: 4px;
     -webkit-transition-property: left, right;
     transition-property: left, right;

@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
 .body-color {
-    background-color: #f5ecf7;
-    color: #413034;
+    background: rgba(230, 227, 73, 0.46);
+    color: #1a6899;
     font-family: Nunito;
 }
