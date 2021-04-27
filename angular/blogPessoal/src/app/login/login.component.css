@@ -1,0 +1,63 @@
+#img-bg {
+    background: url("../../assets/Dumplings.png");
+    min-height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-control {
+    background: rgba(246, 106, 125, 0.34);
+    border-radius: 26px;
+}
+
+h1 {
+    text-align: center;
+    margin: 50px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+    color: #413034;
+}
+
+label {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+button {
+    background: #f5ecf7;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 43px;
+    width: 200px;
+    height: 60px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.hvr-shrink {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+.hvr-shrink:hover,
+.hvr-shrink:focus,
+.hvr-shrink:active {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+}
