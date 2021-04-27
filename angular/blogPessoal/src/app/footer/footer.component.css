@@ -1,0 +1,22 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #f66a7d;
+    padding: 40px;
+}
+
+.redes-sociais {
+    display: flex;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    list-style-type: none;
+}
+
+.fa {
+    color: #413034;
+    padding-right: 20px;
+}
+
+.copyright-footer {
+    text-align: center;
+}
