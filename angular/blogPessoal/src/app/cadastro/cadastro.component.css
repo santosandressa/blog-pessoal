@@ -4,8 +4,9 @@
 }
 
 .form-control {
-    background: rgba(246, 106, 125, 0.34);
+    background: rgba(230, 91, 94, 0.28);
     border-radius: 26px;
+    border: none;
 }
 
 h1 {
@@ -29,7 +30,7 @@ label {
 }
 
 button {
-    background: #f5ecf7;
+    background: none;
     border: 1px solid #000000;
     box-sizing: border-box;
     border-radius: 43px;
@@ -58,16 +59,6 @@ button {
     -webkit-transform: scale(0.9);
     transform: scale(0.9);
 }
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-    .img-bg {
-        background: url("../../assets/Untitled.png");
-        height: 1366px;
-    }
-}
-
-
-/* Iphone */
 
 
 /* Portrait and Landscape */
