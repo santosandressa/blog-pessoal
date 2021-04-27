@@ -1,4 +1,5 @@
-#img-bg {
+.img-bg {
+    background: url("../../assets/Untitled.png");
     height: 1063px;
 }
 
@@ -56,4 +57,38 @@ button {
 .hvr-shrink:active {
     -webkit-transform: scale(0.9);
     transform: scale(0.9);
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    .img-bg {
+        background: url("../../assets/Untitled.png");
+        height: 1366px;
+    }
+}
+
+
+/* Iphone */
+
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+    .img-bg {
+        display: none;
+    }
+}
+
+@media (min-device-width: 540px) and (max-device-width: 1280px) {
+    .img-bg {
+        display: none;
+    }
+}
+
+
+/* Portrait and Landscape */
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+    .img-bg {
+        display: none;
+    }
 }
