@@ -10,6 +10,7 @@ export class CadastroComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    document.body.classList.add('body-color');
   }
 
 }
