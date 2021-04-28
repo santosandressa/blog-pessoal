@@ -13,10 +13,11 @@ footer {
 }
 
 .fa {
-    color: #1a6899;
+    color: black;
     padding-right: 30px;
 }
 
 .copyright-footer {
     text-align: center;
+    color: black;
 }

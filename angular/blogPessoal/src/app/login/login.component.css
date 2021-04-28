@@ -1,6 +1,6 @@
 .img-bg {
     background: url("../../assets/Dumplings.png");
-    min-height: 955px;
+    min-height: 750px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,6 +15,7 @@
 h1 {
     text-align: center;
     margin-bottom: 50px;
+    color: black;
 }
 
 a {
@@ -24,12 +25,13 @@ a {
     font-weight: 700;
     line-height: 19px;
     text-align: left;
-    color: #1a6899;
+    color: black;
 }
 
 label {
     font-weight: bold;
     font-size: 18px;
+    color: black;
 }
 
 button {
@@ -63,9 +65,17 @@ button {
     transform: scale(0.9);
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
     .img-bg {
         height: 1024px;
+        background-repeat: repeat;
+        background-size: cover;
+    }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+    .img-bg {
+        height: 1366px;
         background-position: left top;
         background-repeat: repeat;
         background-size: auto;
@@ -93,7 +103,7 @@ button {
     }
 }
 
-@media only screen and (min-width: 540px) and (max-width: 767px) {
+@media only screen and (min-width: 240px) and (max-width: 767px) {
     .img-bg {
         display: none;
     }

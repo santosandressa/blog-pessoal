@@ -1,7 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
 
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg-body {
+    background: url("./assets/gyeongbokgung-palace.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .body-color {
-    background: rgba(230, 227, 73, 0.46);
-    color: #1a6899;
+    color: #ffedea;
     font-family: Nunito;
+    background: rgba(160, 64, 151, 0.17);
 }
