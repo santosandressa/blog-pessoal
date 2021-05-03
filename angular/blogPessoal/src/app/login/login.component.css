@@ -1,8 +1,10 @@
 .img-bg {
     background: url("../../assets/Dumplings.png");
-    min-height: 750px;
+    height: 100%;
+    width: 100%;
+    min-height: 958px;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
 }
 

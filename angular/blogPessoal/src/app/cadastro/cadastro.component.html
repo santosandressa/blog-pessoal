@@ -7,38 +7,41 @@
                     <h1>Cadastro</h1>
                     <div class="form-group">
                         <label for="usuario">Nome :</label>
-                        <input class="form-control" name="nome" id="nome" type="text" placeholder="Seu nome" required />
+                        <input [(ngModel)]="user.nome" class="form-control" name="nome" id="nome" type="text" placeholder="Seu nome" required />
                     </div>
 
                     <div class="form-group">
                         <label for="usuario">Usuário :</label>
-                        <input class="form-control" name="usuario" id="usuario" type="text" placeholder="Seu usuário" required />
+                        <input [(ngModel)]="user.usuario" class="form-control" name="usuario" id="usuario" type="text" placeholder="Seu usuário" required />
                     </div>
 
                     <div class="form-group">
                         <label for="usuario">Senha :</label>
-                        <input class="form-control" name="senha" id="senha" type="password" placeholder="Sua senha" required />
+                        <input (input)="confirmSenha($event)" class="form-control" name="senha" id="senha" type="password" placeholder="Sua senha" required />
                     </div>
 
                     <div class="form-group">
                         <label for="usuario">Confirmar Senha:</label>
-                        <input class="form-control" name="senha" id="senha" type="password" placeholder="Sua senha" required />
+                        <input [(ngModel)]="user.senha" class="form-control" name="confirmarSenha" id="confirmarSenha" type="password" placeholder="Sua senha" required />
                     </div>
                     <div class="form-group">
-                        <label for="usuario">Tipo de usuário:</label>
-                        <select class="form-control" name="tipo" id="tipo">
+                        <label for="usuario ">Tipo de usuário:</label>
+                        <select (change)="tipoUser($event)" class="form-control" name="tipo " id="tipo ">
               <option>Selecione um tipo de usuário</option>
-              <option value="normal">Normal</option>
-              <option value="adm">Administrador</option>
+              <option value="normal ">Normal</option>
+              <option value="adm ">Administrador</option>
             </select>
                     </div>
 
                     <div class="d-flex justify-content-center">
-                        <button type="submit" class="hvr-shrink" routerLink="/homepage">Cancelar</button>
-
+                        <button type="submit " class="hvr-shrink" routerLink="/homepage">
+              Cancelar
+            </button>
                     </div>
                     <div class="d-flex justify-content-center">
-                        <button type="submit" class="hvr-shrink">Cadastre-se</button>
+                        <button (click)="cadastrar()" type="submit " class="hvr-shrink">
+              Cadastre-se
+            </button>
                     </div>
                 </div>
             </div>
