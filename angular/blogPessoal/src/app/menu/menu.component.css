@@ -13,13 +13,14 @@
     margin-left: 30px;
 }
 
-.menu-container a {
+.menu-container a,
+p {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 1px;
-    color: #ffedea;
+    color: #1b1617;
     text-align: center;
 }
 

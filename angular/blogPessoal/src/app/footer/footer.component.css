@@ -2,7 +2,8 @@ footer {
     display: flex;
     flex-direction: column;
     border-top: 1px solid #e65b5e;
-    padding: 40px;
+    padding-top: 20px;
+    margin-top: 10px;
 }
 
 .redes-sociais {

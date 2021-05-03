@@ -14,7 +14,8 @@
 h1 {
     text-align: center;
     margin: 50px;
-    color: black;
+    color: #1b1617;
+    font-size: 32px;
 }
 
 a {
@@ -43,6 +44,10 @@ button {
     text-transform: uppercase;
     font-weight: 700;
     margin-top: 20px;
+}
+
+input::placeholder {
+    color: #1b1617;
 }
 
 .hvr-shrink {

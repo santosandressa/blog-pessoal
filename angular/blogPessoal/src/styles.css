@@ -4,10 +4,11 @@ body,
 html {
     height: 100%;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 .body-color {
     color: #ffedea;
     font-family: Nunito;
-    background: rgba(160, 64, 151, 0.17);
+    background: rgba(228, 189, 224, 0.5);
 }

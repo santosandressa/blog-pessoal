@@ -35,7 +35,6 @@ export class LoginComponent implements OnInit {
       },
       (err) => {
         if (err.status == 500) {
-          alert('Usuário ou senha estão incorretos!');
         }
       }
     );
