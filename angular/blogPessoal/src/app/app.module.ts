@@ -10,6 +10,7 @@ import { LoginComponent } from './login/login.component';
 import { CadastroComponent } from './cadastro/cadastro.component';
 import { FormsModule } from '@angular/forms';
 import { InicioComponent } from './inicio/inicio.component';
+import { TemaComponent } from './tema/tema.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { InicioComponent } from './inicio/inicio.component';
     LoginComponent,
     CadastroComponent,
     InicioComponent,
+    TemaComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule, FormsModule],
   providers: [
