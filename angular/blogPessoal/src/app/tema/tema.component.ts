@@ -19,13 +19,22 @@ export class TemaComponent implements OnInit {
     if (environment.token == '') {
       this.router.navigate(['/login']);
     }
+
+    this.findAllTemas();
   }
 
   cadastrar() {
     this.temaService.postTema(this.tema).subscribe((resp: Tema) => {
       this.tema = resp;
       alert('Tema cadastrado com sucesso!');
+      this.findAllTemas();
       this.tema = new Tema();
+    });
+  }
+
+  findAllTemas() {
+    this.temaService.getAllTema().subscribe((resp: Tema[]) => {
+      this.listaTemas = resp;
     });
   }
 }
