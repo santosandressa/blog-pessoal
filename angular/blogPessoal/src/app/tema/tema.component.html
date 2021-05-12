@@ -13,7 +13,7 @@
                     </div>
 
                     <div class="d-flex justify-content-center">
-                        <button (click)="cadastrar()">Cadastrar</button>
+                        <button class="btn btn-success" (click)="cadastrar()">Cadastrar</button>
                     </div>
                 </div>
             </div>
@@ -43,10 +43,10 @@
                         <th>{{ tema.id }}</th>
                         <td>{{ tema.descricao }}</td>
                         <td class="justify-content-end">
-                            <button class="mr-3 btn-danger" [routerLink]="['/tema-edit', tema.id]">
+                            <button class="btn-success mr-4" [routerLink]="['/tema-edit', tema.id]">
                 Editar
               </button>
-                            <button [routerLink]="['/tema-delete', tema.id]">Apagar</button>
+                            <button class="mr-3 btn-danger" [routerLink]="['/tema-delete', tema.id]">Apagar</button>
                         </td>
                     </tr>
                 </tbody>
