@@ -1,0 +1,35 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-10">
+                    <h1>Atualizar cadastro</h1>
+                    <div class="form-group">
+                        <label for="usuario">Nome :</label>
+                        <input [(ngModel)]="user.nome" class="form-control" name="nome" id="nome" type="text" placeholder="Seu nome" required />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="usuario">Senha :</label>
+                        <input (input)="confirmSenha($event)" class="form-control" name="senha" id="senha" type="password" placeholder="Sua senha" required />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="usuario">Confirmar Senha:</label>
+                        <input [(ngModel)]="user.senha" class="form-control" name="confirmarSenha" id="confirmarSenha" type="password" placeholder="Sua senha" required />
+                    </div>
+
+                    <div class="d-flex justify-content-center">
+                        <button type="submit " class="hvr-shrink btn-danger" routerLink="/inicio">
+              Cancelar
+            </button>
+
+                        <button (click)="atualizar()" type="submit " class="hvr-shrink btn-success">
+             Atualizar
+            </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

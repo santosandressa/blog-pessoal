@@ -19,8 +19,10 @@
         <li>
             <p>Olá {{ nome }}!</p>
         </li>
-        <li class="hvr-underline-from-center"><a href="#">Home</a></li>
-        <li class="hvr-underline-from-center"><a href="#">Login</a></li>
+        <li class="hvr-underline-from-center"><a>Home</a></li>
+        <li class="hvr-underline-from-center">
+            <a [routerLink]="['/user-edit', id]">Editar Usuário</a>
+        </li>
         <li class="hvr-underline-from-center">
             <a (click)="sair()">Sair</a>
         </li>
